@@ -1,0 +1,13 @@
+<div class="container mt-3">
+    <div class="jumbotron" style="min-height: 20vh !important">
+        <h1 style="color:blue; float: left;">Hasta Luego {{usuario}}</h1>
+    </div>
+</div>
+
+<script>
+    setTimeout(function(){
+        window.location.href = "/"
+        } , 2000)
+    localStorage.removeItem('access_token')
+</script>
+
